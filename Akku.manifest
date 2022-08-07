@@ -1,0 +1,10 @@
+#!r6rs ; -*- mode: scheme; coding: utf-8 -*-
+(import (akku format manifest))
+
+(akku-package ("test-project" "1.0.0-alpha.0")
+  (synopsis "Chez scheme akku project template")
+  (authors "Chengzh2008")
+  (license "MIT")
+  (depends ("chez-stats" "^0.1.2") 
+           ("chez-srfi" ">=0.0.0-akku <1.0.0"))
+)
