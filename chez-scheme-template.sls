@@ -5,7 +5,5 @@
 
 (library (chez-scheme-template)
   (export hello)
-  (import (rnrs))
-
-(define (hello whom)
-  (string-append "Hello " whom "!")))
+  (import (rnrs) 
+          (src hello)))
