@@ -3,7 +3,7 @@
 
 (import (rnrs (6)) 
         (srfi :64 testing) 
-        (test-project))
+        (chez-scheme-template))
 
 (test-begin "hello")
     (test-equal "Hello World!" (hello "World"))

@@ -1,7 +1,7 @@
 #!/usr/bin/env scheme-script
 #!r6rs
 
-(import (rnrs (6)) (test-project))
+(import (rnrs (6)) (chez-scheme-template))
 
 (display (hello "World"))
 (newline)

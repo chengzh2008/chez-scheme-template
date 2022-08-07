@@ -6,7 +6,7 @@
 `akku install <package-name>` # lib files are placed in .akku/lib and source code is installed in .akku/src
 
 ## How to run
-`./bin/test-project.sps`
+`./bin/chez-scheme-template.sps`
 
 ## How to test
-`./tests/test-test-project.sps`
+`./tests/test-chez-scheme-template.sps`

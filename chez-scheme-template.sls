@@ -3,7 +3,7 @@
 ;; SPDX-License-Identifier: MIT
 #!r6rs
 
-(library (test-project)
+(library (chez-scheme-template)
   (export hello)
   (import (rnrs))
 
