@@ -1,5 +1,0 @@
-(library (src hello)
-    (export hello)
-    (import (rnrs))
-    (define (hello whom)
-        (string-append "Hello " whom "!")))
